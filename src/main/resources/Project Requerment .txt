@@ -1,5 +1,0 @@
-// 1  Create A User Account 
-// 2 Chek Account Details 
-// 3 Deposited Ballance 
-// 4 Withdraw Ballance 
-// 

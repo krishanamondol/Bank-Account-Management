@@ -2,7 +2,7 @@ public class Service extends  Account{
 
     public void  Home(){
         System.out.println(" 1 : Log in");
-        System.out.println(" 2 :Sing Up");
+        System.out.println(" 2 : Sing Up");
         System.out.println("Please Select 1/2");
         int number = input.nextInt();
         if (number == 1) {
