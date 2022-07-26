@@ -4,17 +4,23 @@ public class Service extends  Account{
         System.out.println(" 1 : Log in");
         System.out.println(" 2 : Sing Up");
         System.out.println("Please Select 1/2");
-        int number = input.nextInt();
-        if (number == 1) {
-            logIn();
+        try {
+            int number = input.nextInt();
+            if (number == 1) {
+                logIn();
+    
+            }else if (number == 2){
+                singUp();
+            }
+            else {
+                Home();
+            }
+        Menu();
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("System crash");
+        }
 
-        }else if (number == 2){
-            singUp();
-        }
-        else {
-            Home();
-        }
-    Menu();
     }
 
     public void Menu(){
